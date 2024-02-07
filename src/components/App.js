@@ -68,6 +68,7 @@ const App = () => {
       <input id="shopping-input" type="text" value={inputValue} onChange={handleInputChange} />
       <button onClick={handleAddItem}>Add</button>
       <ul>
+        {/* <p></p> */}
         {items.map((item, index) => (
           <li key={index}>
             {item}
